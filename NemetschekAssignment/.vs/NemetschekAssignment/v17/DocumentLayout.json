@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2B9206-DA24-4457-8888-49B38958A1EA}|..\\NemetschekAssignment.Models\\NemetschekAssignment.Models.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.models\\nemetschekdocumentdocumenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4713E7B-4C36-468A-AA9E-A838E3618722}|..\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.core\\mapper\\defaultautomapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4713E7B-4C36-468A-AA9E-A838E3618722}|..\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.core\\services\\document\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C00602C-8301-4AB0-9E35-49E294A747FA}|NemetschekAssignment.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C00602C-8301-4AB0-9E35-49E294A747FA}|NemetschekAssignment.csproj|solutionrelative:controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4713E7B-4C36-468A-AA9E-A838E3618722}|..\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.core\\dtos\\document\\updatenemetschekdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2B9206-DA24-4457-8888-49B38958A1EA}|..\\NemetschekAssignment.Models\\NemetschekAssignment.Models.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.models\\nemetschekdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C00602C-8301-4AB0-9E35-49E294A747FA}|NemetschekAssignment.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C00602C-8301-4AB0-9E35-49E294A747FA}|NemetschekAssignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C00602C-8301-4AB0-9E35-49E294A747FA}|NemetschekAssignment.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C00602C-8301-4AB0-9E35-49E294A747FA}|NemetschekAssignment.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4713E7B-4C36-468A-AA9E-A838E3618722}|..\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.core\\nemetschekassignment.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F03A33-CD78-40D9-BEF6-5BBDF99631E6}|..\\NemetschekAssignment.Data\\NemetschekAssignment.Data.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.data\\nemetschekdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2B9206-DA24-4457-8888-49B38958A1EA}|..\\NemetschekAssignment.Models\\NemetschekAssignment.Models.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2B9206-DA24-4457-8888-49B38958A1EA}|..\\NemetschekAssignment.Models\\NemetschekAssignment.Models.csproj|c:\\users\\savinbratanov\\documents\\nemetschek\\nemetschekassignment.models\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\Services\\Document\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Core\\Services\\Document\\IDocumentService.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\Services\\Document\\IDocumentService.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Core\\Services\\Document\\IDocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:14:32.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefaultAutomapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\Mapper\\DefaultAutomapperProfile.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Core\\Mapper\\DefaultAutomapperProfile.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\Mapper\\DefaultAutomapperProfile.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Core\\Mapper\\DefaultAutomapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:14:19.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "Controllers\\DocumentsController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:51:37.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NemetschekDocumentDocumentType.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\NemetschekDocumentDocumentType.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Models\\NemetschekDocumentDocumentType.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\NemetschekDocumentDocumentType.cs*",
+              "RelativeToolTip": "..\\NemetschekAssignment.Models\\NemetschekDocumentDocumentType.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:38:56.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateNemetschekDocumentDto.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\Dtos\\Document\\UpdateNemetschekDocumentDto.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Core\\Dtos\\Document\\UpdateNemetschekDocumentDto.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\Dtos\\Document\\UpdateNemetschekDocumentDto.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Core\\Dtos\\Document\\UpdateNemetschekDocumentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:06:06.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NemetschekDocument.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\NemetschekDocument.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Models\\NemetschekDocument.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\NemetschekDocument.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Models\\NemetschekDocument.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:36:48.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:44:51.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T17:50:52.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NemetschekAssignment.Core",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj*",
+              "RelativeToolTip": "..\\NemetschekAssignment.Core\\NemetschekAssignment.Core.csproj*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-24T17:40:38.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NemetschekDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Data\\NemetschekDbContext.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Data\\NemetschekDbContext.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Data\\NemetschekDbContext.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Data\\NemetschekDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:33:01.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\Entity.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Models\\Entity.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\Entity.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Models\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:36:47.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\Interfaces\\IEntity.cs",
+              "RelativeDocumentMoniker": "..\\NemetschekAssignment.Models\\Interfaces\\IEntity.cs",
+              "ToolTip": "C:\\Users\\SavinBratanov\\Documents\\Nemetschek\\NemetschekAssignment.Models\\Interfaces\\IEntity.cs",
+              "RelativeToolTip": "..\\NemetschekAssignment.Models\\Interfaces\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:37:06.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
