@@ -1,9 +1,7 @@
-﻿namespace NemetschekAssignment.Models
+﻿namespace NemetschekAssignment.Models;
+public enum NemetschekDocumentDocumentType
 {
-    public enum DocumentType
-    {
-        PDF = 1,
-        DOC = 2,
-        CSV = 3
-    }
+    PDF = 1,
+    DOC = 2,
+    CSV = 3
 }

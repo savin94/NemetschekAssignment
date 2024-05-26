@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using NemetschekAssignment.Core;
 using NemetschekAssignment.Core.Services;
 using OMS.Infrastructure.Automapper;
 using OndoNet.Data;
@@ -45,6 +46,13 @@ builder.Services.AddDbContext<NemetschekDbContext>(options =>
 });
 
 var app = builder.Build();
+
+// Applying migrations...
+app.MigrateDbContext<NemetschekDbContext>((context, services) =>
+{
+    var logger = services.GetService<ILogger<NemetschekDbContext>>();
+});
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

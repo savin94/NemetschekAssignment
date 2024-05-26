@@ -6,8 +6,8 @@ namespace NemetschekAssignment.Core.Services;
 public interface IDocumentService
 {
     Task<IEnumerable<NemetschekDocument>> GetAllAsync();
-    Task<NemetschekDocument> GetByIdAsync(int id);
+    Task<NemetschekDocument?> GetByIdAsync(Guid id);
     Task<NemetschekDocument> CreateAsync(CreateNemetschekDocumentDto document);
     Task<NemetschekDocument> UpdateAsync(UpdateNemetschekDocumentDto document);
-    Task<bool> DeleteAsync(int id);
+    Task<bool> DeleteAsync(Guid id);
 }

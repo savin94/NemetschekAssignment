@@ -1,5 +1,4 @@
 using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NemetschekAssignment.Core.Dtos;
 using NemetschekAssignment.Core.Services;
@@ -21,37 +20,44 @@ public class DocumentsController(IMapper mapper, IDocumentService documentServic
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesDefaultResponseType]
-    public async Task<ActionResult> Create(CreateAssetStatusCommand command)
+    public async Task<ActionResult> Create(CreateNemetschekDocumentDto dto)
     {
-        return Ok(await mediator.Send(command));
+        var document = await documentService.CreateAsync(dto);
+
+        return Ok(mapper.Map<NemetschekDocument>(document));
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [Authorize(Policy = Policies.MinIntegrator)]
     [ProducesDefaultResponseType]
-    public async Task<ActionResult> Edit(EditAssetStatusCommand command)
+    public async Task<ActionResult> Edit(Guid id, UpdateNemetschekDocumentDto dto)
     {
-        var document = await context.Documents.FindAsync(id);
+        var document = documentService.GetByIdAsync(id);
         if (document == null)
         {
-            return false;
+            return NotFound();
         }
-        await mediator.Send(command);
 
-        return Ok();
+       var updatedDocumet =  await documentService.UpdateAsync(dto);
+
+
+        return Ok(mapper.Map<NemetschekDocumentDto>(updatedDocumet));
     }
 
     [HttpDelete("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [Authorize(Policy = Policies.MinSuperAdmin)]
     [ProducesDefaultResponseType]
     public async Task<ActionResult> Delete(Guid id)
     {
-        var command = new DeleteAssetStatusCommand { Id = id };
-        await mediator.Send(command);
+        var document = documentService.GetByIdAsync(id);
+        if (document == null)
+        {
+            return NotFound();
+        }
+
+       await documentService.DeleteAsync(id);
 
         return NoContent();
     }

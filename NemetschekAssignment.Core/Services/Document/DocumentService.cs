@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using NemetschekAssignment.Core.Dtos;
 using NemetschekAssignment.Models;
 using OndoNet.Data;
-using System.Reflection.Metadata;
 
 namespace NemetschekAssignment.Core.Services;
 public class DocumentService(NemetschekDbContext context, IMapper mapper) : IDocumentService
@@ -14,29 +13,38 @@ public class DocumentService(NemetschekDbContext context, IMapper mapper) : IDoc
         return await context.Documents.ToListAsync();
     }
 
-    public async Task<NemetschekDocument> GetByIdAsync(Guid id)
-    {
-        return await context.Documents.FirstOrDefaultAsync(x => x.Id == id);
-    }
+    public async Task<NemetschekDocument?> GetByIdAsync(Guid id) => await context.Documents.FirstOrDefaultAsync(x => x.Id == id);
 
-    public async Task<NemetschekDocument> CreateAsync(CreateNemetschekDocumentDto document)
+    public async Task<NemetschekDocument> CreateAsync(CreateNemetschekDocumentDto dto)
     {
-        context.Documents.Add(document);
-        await context.SaveChangesAsync();
-        return document;
-    }
+        var document = mapper.Map<CreateNemetschekDocumentDto, NemetschekDocument>(dto);
 
-    public async Task<Document> UpdateAsync(Document document)
-    {
-        context.Entry(document).State = EntityState.Modified;
+        await context.Documents.AddAsync(document);
         await context.SaveChangesAsync();
 
         return document;
     }
 
-    public async Task<bool> DeleteAsync(int id)
+    public async Task<NemetschekDocument> UpdateAsync(UpdateNemetschekDocumentDto dto)
     {
-        var document = await context.Documents.FindAsync(id);
+        // No need to use FirstOrDefaultAsync and check if value is null because we check that in the controller
+        var dbModel = await context.Documents.FirstAsync(x => x.Id == dto.Id);
+
+        dbModel.Name = dto.Name!;
+        dbModel.Description = dto.Description;
+        dbModel.Type = dto.Type;
+        dbModel.UpdatedAt = DateTimeOffset.Now;
+
+        context.Documents.Update(dbModel);
+        await context.SaveChangesAsync();
+
+        return dbModel;
+    }
+
+    public async Task<bool> DeleteAsync(Guid id)
+    {
+        // No need to use FirstOrDefaultAsync and check if value is null because we check that in the controller
+        var document = await context.Documents.FirstAsync(x => x.Id == id);
 
         context.Documents.Remove(document);
         await context.SaveChangesAsync();
